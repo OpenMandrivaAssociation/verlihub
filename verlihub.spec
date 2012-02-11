@@ -2,7 +2,7 @@
 %define verlihub_user verlihub
 %define verlihub_group verlihub
 %define verlihub_home %{_logdir}/%{name}
-%define release %mkrel 1
+%define release %mkrel 2
 %define name verlihub
 %define devel %mklibname %{name} -d
 %define libs %mklibname %{name}
