@@ -14,7 +14,7 @@ Release: %{release}
 Summary: Direct Connect (p2p) Server
 License: GPL
 Group: System/Servers
-Url: http://www.verlihub-project.org
+Url: https://www.verlihub-project.org
 Source: http://www.verlihub-project.org/download/%{name}-%{version}-%{rel}.tar.bz2
 Source1: %{name}.init
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
