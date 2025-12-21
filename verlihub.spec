@@ -18,6 +18,11 @@ Url: https://www.verlihub-project.org
 Source: http://www.verlihub-project.org/download/%{name}-%{version}-%{rel}.tar.bz2
 Source1: %{name}.init
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gcc-c++ glibc-devel libgeoip-devel mysql-devel libpcre-devel zlib-devel
 Requires: mysql-client
 
